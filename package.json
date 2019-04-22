@@ -1,0 +1,32 @@
+{
+  "name": "monorep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bolt": {
+    "workspaces": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.3",
+    "preconstruct": "^0.0.58",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/foo"
+    ]
+  }
+}
