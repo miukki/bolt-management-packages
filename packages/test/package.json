@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "description": "",
+  "author": "miukki@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "react": "^16.8.6"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.3"
+  },
+  "main": "dist/test.cjs.js",
+  "module": "dist/test.esm.js"
+}

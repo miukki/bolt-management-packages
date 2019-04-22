@@ -1,0 +1,1 @@
+export default 'Effector logic here...'
